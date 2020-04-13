@@ -15,7 +15,7 @@ def get_japanese_emoticon(file_path,emoticon)
   response = nil
   library.each do |name, emoticons|
     english = emoticons[:english]
-    japanesen = emoticons[:japanese]
+    japanese = emoticons[:japanese]
     binding.pry
     if emoticon == english
       response = japanese
