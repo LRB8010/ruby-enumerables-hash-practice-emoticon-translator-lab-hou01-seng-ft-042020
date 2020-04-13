@@ -18,6 +18,7 @@ def get_japanese_emoticon(file_path,emoticon)
     japanesen = emoticons[:japanese]
     if emoticon == english
       response = japanese
+      binding.pry
     end
   end
   if response == nil
